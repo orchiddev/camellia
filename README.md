@@ -1,13 +1,13 @@
 <br>
 <div align="center">
-    <img src="https://github.com/camelliajs/camellia/blob/master/icons/camellia.png?raw=true" height="128" width="128"/>
+    <img src="https://github.com/orchiddev/camellia/blob/master/icons/camellia.png?raw=true" height="128" width="128"/>
     <h2>Camellia</h2>
     <h6><i>- The respectful Node.js Discord library -</i></h6>
     <br>
     <p>
         <a href="https://discord.gg/CBNJ9ww"><img src="https://discord.com/api/guilds/729270022270353419/embed.png"></a>
         <a href="npmjs.com/package/camellia.js"><img src="https://img.shields.io/npm/dm/camellia.js"></a>
-        <a href="https://github.com/camelliajs/camellia"><img src="https://img.shields.io/github/package-json/v/camelliajs/camellia"></a>
+        <a href="https://github.com/orchiddev/camellia"><img src="https://img.shields.io/github/package-json/v/orchiddev/camellia"></a>
     </p>
 </div>
 
@@ -31,14 +31,14 @@ In short: This project aims to provide a viable and advanced alternative to [dis
 
 As this library is in heavy beta, the only true way to install it is through it's development builds.
 ```
-npm i camelliajs/camellia
+nothing yet
 ```
 #### Optional Packages
 As of writing this, there are currently no optional packages. Most of the would-be optional packages are necessities towards building speed with the library.
 
 ## Example code
 ```js
-const Camellia = require("camellia.js");
+const Camellia = require("camellia");
 const bot = new Camellia.Client();
 
 client.on("ready", () => {
@@ -56,5 +56,5 @@ client.connect("token");
 
 ## Links
 * [Discord](https://discord.gg/CBNJ9ww)
-* [Github](https://github.com/camelliajs/camellia) ([Organization](https://github.com/camelliajs))
+* [Github](https://github.com/orchiddev/camellia) ([Organization](https://github.com/orchiddev))
 * [Related Libraries](http://discordapi.com/unofficial/libs.html)
