@@ -1,0 +1,42 @@
+{
+	"name": "camellia.js",
+	"version": "1.0.0-RC.1",
+	"description": "The respectful Node.js Discord library.",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"gendocs": "node_modules/.bin/docgen --source lib --custom docs/index.yml --output docs/docs.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/camelliajs/camellia.git"
+	},
+	"keywords": [
+		"discord",
+		"api",
+		"discordapi",
+		"node",
+		"camellia",
+		"discordlib",
+		"library"
+	],
+	"author": "Nyalter",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/camelliajs/camellia/issues"
+	},
+	"homepage": "https://github.com/camelliajs/camellia#readme",
+	"dependencies": {
+		"@camelliajs/abort-controller": "^0.1.1",
+		"bufferutil": "^4.0.1",
+		"erlpack": "^0.1.3",
+		"fflate": "^0.7.1",
+		"node-fetch": "^2.6.0",
+		"ws": "^7.3.0",
+		"zlib-sync": "^0.1.7"
+	},
+	"devDependencies": {
+		"discord.js-docgen": "discordjs/docgen",
+		"dotenv": "^8.2.0"
+	}
+}

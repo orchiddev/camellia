@@ -1,0 +1,17 @@
+# Camellia .gitignore v1
+# Generic
+node_modules/
+package-lock.json
+
+# Testing files
+.env
+
+# Log files
+logs/
+*.log
+
+# Documentation
+docs/out/
+
+# Extraneous Metadata
+.VSCodeCounter/
